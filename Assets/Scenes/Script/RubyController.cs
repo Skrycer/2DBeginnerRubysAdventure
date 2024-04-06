@@ -14,5 +14,7 @@ public class RubyController : MonoBehaviour
     void Update()
     {
         
+        position.x = position.x + 0.1f;
+        transform.position = position;
     }
 }
